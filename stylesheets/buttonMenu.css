@@ -1,0 +1,85 @@
+/* .buttonContainer {
+  left: 25%;
+  top: 60%;
+  display: flex;
+  width: 50%;
+  height: 12%;
+  margin: 0 auto;
+  transition: width 0.475s;
+} */
+
+.buttons {
+  width: 70%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.cell {
+  height: 81px;
+  width: 180px;
+  margin: -5px -5px -5px -5px;
+}
+
+.spriteButton {
+  align: left;
+  margin-left: -6px;
+  display: inline-block;
+  background-position: top;
+  height: 81px;
+  width: 180px;
+  position: absolute;
+  cursor: pointer;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  -moz-animation-name: pageLoadButton;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease-out;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-delay: 0s;
+
+  -webkit-animation-name: pageLoadButton;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 0s;
+
+  animation-name: pageLoadButton;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+}
+
+.spriteButton:hover {
+  background-position: bottom;
+}
+
+#godsButton {
+  background-image: url("../images/godsSprite.png");
+}
+
+#goddessesButton {
+  background-image: url("../images/goddessesSprite.png");
+}
+
+#godGroupsButton {
+  background-image: url("../images/godGroupsSprite.png");
+}
+
+#mortalGroupsButton {
+  background-image: url("../images/mortalGroupsSprite.png");
+}
+
+#ceremonialEpithetsButton {
+  background-image: url("../images/ceremonialEpithetsSprite.png");
+}
+
+#romanEquivalentsButton {
+  background-image: url("../images/romanEquivalentsSprite.png");
+}
