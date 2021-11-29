@@ -237,6 +237,7 @@ img {
   top: 5%;
   align-items: right;
   flex-flow: column;
+  position: fixed;
   display: flex;
   justify-content: right;
 }
